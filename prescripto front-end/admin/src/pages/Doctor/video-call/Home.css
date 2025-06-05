@@ -1,0 +1,73 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #CBE2B5;
+    font-family: 'Arial', sans-serif;
+}
+/* Style the box containing the input and button */
+.home-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+/* Style the heading */
+.home-box h1 {
+    margin-bottom: 40px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Style the input field */
+.room-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Style the join button */
+.join-button {
+    width: 50%;
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.join-button:hover {
+    background-color: #45a049;
+}
+
+/* Add responsive design for smaller screens */
+/* @media (max-width: 600px) {
+    .home-box {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .home-box h1 {
+        font-size: 20px;
+    }
+
+    .room-input, .join-button {
+        font-size: 14px;
+    }
+} */
