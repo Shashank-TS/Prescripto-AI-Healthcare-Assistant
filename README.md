@@ -53,11 +53,9 @@
 ---
 ## How to run?
 
-### Step 1: Fork and Clone the Repository
+### Step 1: Clone the Repository
 
-1. Fork the repository to your GitHub account.
-
-2. Clone the forked repository to your local machine.
+1. Clone the repository to your local machine.
 
 ```sh
 git clone https://github.com/<your-username>/Prescripto-AI-Healthcare-Assistant
@@ -82,6 +80,7 @@ frontend:
 ### Step 3: Run the backend.
 
 - Run the backend application. It will automatically create the required tables.
+- To start as admin, Insert a new user manually with role admin in users table.
 
 ### Step 4: Run the frontend
 
