@@ -58,7 +58,7 @@ const MyAppointments = () => {
   };
 
   const stripePromise = loadStripe(
-    "pk_test_51RNVY1H2oVjw2emOPz6ml1UDez0En8QELfV1fEd2MZahX5BD4Puwx0LEALNsgNs8Y7bRiXz0Wy4dAo28fEZpFA3k00Dc52sS7e"
+   `${import.meta.env.STRIPE_PUBLIC_KEY}`
   ); // PUBLIC key
 
   const handleCheckout = async (appointmentId) => {
